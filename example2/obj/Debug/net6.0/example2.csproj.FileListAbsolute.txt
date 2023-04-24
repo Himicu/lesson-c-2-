@@ -1,0 +1,15 @@
+D:\Учеба программирование\GB\c#\семинар 2\example2\bin\Debug\net6.0\example2.exe
+D:\Учеба программирование\GB\c#\семинар 2\example2\bin\Debug\net6.0\example2.deps.json
+D:\Учеба программирование\GB\c#\семинар 2\example2\bin\Debug\net6.0\example2.runtimeconfig.json
+D:\Учеба программирование\GB\c#\семинар 2\example2\bin\Debug\net6.0\example2.dll
+D:\Учеба программирование\GB\c#\семинар 2\example2\bin\Debug\net6.0\example2.pdb
+D:\Учеба программирование\GB\c#\семинар 2\example2\obj\Debug\net6.0\example2.csproj.AssemblyReference.cache
+D:\Учеба программирование\GB\c#\семинар 2\example2\obj\Debug\net6.0\example2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба программирование\GB\c#\семинар 2\example2\obj\Debug\net6.0\example2.AssemblyInfoInputs.cache
+D:\Учеба программирование\GB\c#\семинар 2\example2\obj\Debug\net6.0\example2.AssemblyInfo.cs
+D:\Учеба программирование\GB\c#\семинар 2\example2\obj\Debug\net6.0\example2.csproj.CoreCompileInputs.cache
+D:\Учеба программирование\GB\c#\семинар 2\example2\obj\Debug\net6.0\example2.dll
+D:\Учеба программирование\GB\c#\семинар 2\example2\obj\Debug\net6.0\refint\example2.dll
+D:\Учеба программирование\GB\c#\семинар 2\example2\obj\Debug\net6.0\example2.pdb
+D:\Учеба программирование\GB\c#\семинар 2\example2\obj\Debug\net6.0\example2.genruntimeconfig.cache
+D:\Учеба программирование\GB\c#\семинар 2\example2\obj\Debug\net6.0\ref\example2.dll
