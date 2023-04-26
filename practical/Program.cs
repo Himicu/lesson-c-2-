@@ -103,25 +103,39 @@
 
 // -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 0 1 2 3 4 5 6 7 8 9 10
 
-Console.WriteLine("Введите первые координаты: ");
-int x1 = Convert.ToInt32(Console.ReadLine());
-int x2 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите вторые координаты: ");
-int x3 = Convert.ToInt32(Console.ReadLine());
-int x4 = Convert.ToInt32(Console.ReadLine());
-int max1, max2;
+//Console.WriteLine("Введите первые координаты: ");
+int x1 = new Random().Next(-1000, 1000);
+int x2 = new Random().Next(-1000, 1000);
+//Console.WriteLine("Введите вторые координаты: ");
+int x3 = new Random().Next(-1000, 1000);
+int x4 = new Random().Next(-1000, 1000);
 
+int result = 0;
+
+if(x1 > x2){
+    (x1, x2) = (x2, x1);
+}
+if(x3 > x4){
+    (x3, x4) = (x4, x3);
+}
+Console.WriteLine($"Получились координаты: ({x1}, {x2}) ({x3}, {x4})");
 if(x1 < x3){
-     max1 = x3;
+    if(x2 < x4){
+        result = x2 - x3;
+        Console.WriteLine($"result = x2 - x3;");
+    } else{
+    result = x4 -x3;
+    Console.WriteLine($"result = x4 -x3;");
     }
-else max1 = x1;
-if(x2 < x4){
-    max2 = x2;
-    }
-else max2 = x4;
-int result = max2 - max1;
-if(result < 0){
-    Console.WriteLine("0");
+}else if(x2 < x4){
+    result = x2 - x1;
+    Console.WriteLine($"result = x2 - x1;");
+}else {
+    result = x4 - x1;
+    Console.WriteLine($"result = x4 - x1;");
+}
+
+if(result <=0 ){
+    Console.WriteLine("Отрезки не пересекаются");
 }else Console.WriteLine(result);
 
-//требует дороботки, так как пока работает только с последовательными числами типа (2, 5) (0, 7)
